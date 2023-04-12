@@ -34,6 +34,7 @@ end;
 
 ----------------------------------------------
 
+--Declaring constant and finding cercumference of Circle
 declare
 pi constant number := 3.14;
 radius number := :radius;
@@ -44,7 +45,7 @@ dbms_output.put_line('Circumference is : ' || cer);
 end;
 
 ----------------------------------------------
-
+ --Finding Area of a Circle
 declare
 pi constant number := 3.14;
 radius number := :radius;
