@@ -58,6 +58,8 @@ END;
 
  ----------------------------------------------
 
+--Conditional Statements
+--Program to find greatest no among two
 DECLARE
     A NUMBER := :A;
     B NUMBER := :B;
@@ -72,4 +74,3 @@ BEGIN
 END;
 
  ----------------------------------------------
- 
