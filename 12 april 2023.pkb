@@ -75,7 +75,7 @@ END;
 
  ----------------------------------------------
 
---Program to find whether the given input is a Digit or an Alphabet or a Special Charecter
+--Program to find whether the given input is a Digit or an Alphabet or a Special Character
 DECLARE
     INP CHAR(1) := :INP;
 BEGIN
@@ -88,7 +88,7 @@ BEGIN
     AND INP <= '9') THEN
         DBMS_OUTPUT.PUT_LINE(INP || ' is a digit');
     ELSE
-        DBMS_OUTPUT.PUT_LINE('Special Charecter');
+        DBMS_OUTPUT.PUT_LINE('Special Character');
     END IF;
 END;
 
