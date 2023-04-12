@@ -74,3 +74,22 @@ BEGIN
 END;
 
  ----------------------------------------------
+
+--Program to find whether the given input is a Digit or an Alphabet
+DECLARE
+    INP CHAR(1) := :INP;
+BEGIN
+    IF (INP >= 'a'
+    AND INP <= 'z'
+    OR INP >= 'A'
+    AND INP <= 'Z') THEN
+        DBMS_OUTPUT.PUT_LINE(INP || ' is a/an alphabet');
+    ELSIF (INP >= '0'
+    AND INP <= '9') THEN
+        DBMS_OUTPUT.PUT_LINE(INP || ' is a digit');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Incorrect input');
+    END IF;
+END;
+
+ ----------------------------------------------
