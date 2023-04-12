@@ -21,7 +21,7 @@ BEGIN
 END;
 
  ----------------------------------------------
- 
+
  --Program to take user input and format the output
 DECLARE
     A NUMBER := :A;
@@ -31,7 +31,9 @@ BEGIN
     C := A + B;
     DBMS_OUTPUT.PUT_LINE('Sum is : ' || C);
 END;
+
  ----------------------------------------------
+
  --Declaring constant and finding cercumference of Circle
 DECLARE
     PI     CONSTANT NUMBER := 3.14;
@@ -41,7 +43,9 @@ BEGIN
     CER := 2 * PI * RADIUS;
     DBMS_OUTPUT.PUT_LINE('Circumference is : ' || CER);
 END;
+
  ----------------------------------------------
+ 
  --Finding Area of a Circle
 DECLARE
     PI     CONSTANT NUMBER := 3.14;
