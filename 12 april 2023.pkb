@@ -34,3 +34,20 @@ end;
 
 ----------------------------------------------
 
+declare
+pi constant number := 3.14;
+radius number := :radius;
+cer number;
+begin
+cer := 2 * pi * radius;
+dbms_output.put_line('Circumference is : ' || cer);
+end;
+
+declare
+pi constant number := 3.14;
+radius number := :radius;
+cer number;
+begin
+cer := 2 * pi * radius;
+dbms_output.put_line('Circumference is : ' || cer);
+end;
