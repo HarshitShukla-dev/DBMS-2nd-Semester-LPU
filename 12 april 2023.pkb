@@ -88,7 +88,7 @@ BEGIN
     AND INP <= '9') THEN
         DBMS_OUTPUT.PUT_LINE(INP || ' is a digit');
     ELSE
-        DBMS_OUTPUT.PUT_LINE('Incorrect input');
+        DBMS_OUTPUT.PUT_LINE('Special Charecter');
     END IF;
 END;
 
