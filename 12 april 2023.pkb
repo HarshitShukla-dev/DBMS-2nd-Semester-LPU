@@ -1,3 +1,4 @@
+--Program to add two digits
 declare
 a number := 5;
 b number := 10;
@@ -9,6 +10,7 @@ end;
 
 ----------------------------------------------
 
+--Program to add to digit by taking user input
 declare
 a number := :a;
 b number := :b;
@@ -20,6 +22,7 @@ end;
 
 ----------------------------------------------
 
+--Program to take user input and format the output
 declare
 a number := :a;
 b number := :b;
@@ -30,3 +33,4 @@ dbms_output.put_line('Sum is : ' || c);
 end;
 
 ----------------------------------------------
+
