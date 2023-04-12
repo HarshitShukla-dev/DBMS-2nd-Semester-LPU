@@ -7,7 +7,9 @@ BEGIN
     C := A + B;
     DBMS_OUTPUT.PUT_LINE(C);
 END;
+
  ----------------------------------------------
+
  --Program to add to digit by taking user input
 DECLARE
     A NUMBER := :A;
@@ -17,7 +19,9 @@ BEGIN
     C := A + B;
     DBMS_OUTPUT.PUT_LINE(C);
 END;
+
  ----------------------------------------------
+ 
  --Program to take user input and format the output
 DECLARE
     A NUMBER := :A;
