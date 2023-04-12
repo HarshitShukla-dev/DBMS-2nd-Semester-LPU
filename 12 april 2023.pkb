@@ -58,4 +58,18 @@ END;
 
  ----------------------------------------------
 
+DECLARE
+    A NUMBER := :A;
+    B NUMBER := :B;
+BEGIN
+    IF (A > B) THEN
+        DBMS_OUTPUT.PUT_LINE('a is greater then b');
+    ELSIF (A < B) THEN
+        DBMS_OUTPUT.PUT_LINE('b is greater then a');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('a and b are equal');
+    END IF;
+END;
+
+ ----------------------------------------------
  
