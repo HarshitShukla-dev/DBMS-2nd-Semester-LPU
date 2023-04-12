@@ -1,57 +1,52 @@
 --Program to add two digits
-declare
-a number := 5;
-b number := 10;
-c number;
-begin
-c := a + b;
-dbms_output.put_line(c);
-end;
-
-----------------------------------------------
-
---Program to add to digit by taking user input
-declare
-a number := :a;
-b number := :b;
-c number;
-begin
-c := a + b;
-dbms_output.put_line(c);
-end;
-
-----------------------------------------------
-
---Program to take user input and format the output
-declare
-a number := :a;
-b number := :b;
-c number;
-begin
-c := a + b;
-dbms_output.put_line('Sum is : ' || c);
-end;
-
-----------------------------------------------
-
---Declaring constant and finding cercumference of Circle
-declare
-pi constant number := 3.14;
-radius number := :radius;
-cer number;
-begin
-cer := 2 * pi * radius;
-dbms_output.put_line('Circumference is : ' || cer);
-end;
-
-----------------------------------------------
+DECLARE
+    A NUMBER := 5;
+    B NUMBER := 10;
+    C NUMBER;
+BEGIN
+    C := A + B;
+    DBMS_OUTPUT.PUT_LINE(C);
+END;
+ ----------------------------------------------
+ --Program to add to digit by taking user input
+DECLARE
+    A NUMBER := :A;
+    B NUMBER := :B;
+    C NUMBER;
+BEGIN
+    C := A + B;
+    DBMS_OUTPUT.PUT_LINE(C);
+END;
+ ----------------------------------------------
+ --Program to take user input and format the output
+DECLARE
+    A NUMBER := :A;
+    B NUMBER := :B;
+    C NUMBER;
+BEGIN
+    C := A + B;
+    DBMS_OUTPUT.PUT_LINE('Sum is : '
+        || C);
+END;
+ ----------------------------------------------
+ --Declaring constant and finding cercumference of Circle
+DECLARE
+    PI     CONSTANT NUMBER := 3.14;
+    RADIUS NUMBER := :RADIUS;
+    CER    NUMBER;
+BEGIN
+    CER := 2 * PI * RADIUS;
+    DBMS_OUTPUT.PUT_LINE('Circumference is : '
+        || CER);
+END;
+ ----------------------------------------------
  --Finding Area of a Circle
-declare
-pi constant number := 3.14;
-radius number := :radius;
-area number;
-begin
-area := pi * (radius ** 2);
-dbms_output.put_line('Area is : ' || area);
-end;
-
+DECLARE
+    PI     CONSTANT NUMBER := 3.14;
+    RADIUS NUMBER := :RADIUS;
+    AREA   NUMBER;
+BEGIN
+    AREA := PI * (RADIUS ** 2);
+    DBMS_OUTPUT.PUT_LINE('Area is : '
+        || AREA);
+END;
