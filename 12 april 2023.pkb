@@ -25,8 +25,7 @@ DECLARE
     C NUMBER;
 BEGIN
     C := A + B;
-    DBMS_OUTPUT.PUT_LINE('Sum is : '
-        || C);
+    DBMS_OUTPUT.PUT_LINE('Sum is : ' || C);
 END;
  ----------------------------------------------
  --Declaring constant and finding cercumference of Circle
@@ -36,8 +35,7 @@ DECLARE
     CER    NUMBER;
 BEGIN
     CER := 2 * PI * RADIUS;
-    DBMS_OUTPUT.PUT_LINE('Circumference is : '
-        || CER);
+    DBMS_OUTPUT.PUT_LINE('Circumference is : ' || CER);
 END;
  ----------------------------------------------
  --Finding Area of a Circle
@@ -47,6 +45,5 @@ DECLARE
     AREA   NUMBER;
 BEGIN
     AREA := PI * (RADIUS ** 2);
-    DBMS_OUTPUT.PUT_LINE('Area is : '
-        || AREA);
+    DBMS_OUTPUT.PUT_LINE('Area is : ' || AREA);
 END;
