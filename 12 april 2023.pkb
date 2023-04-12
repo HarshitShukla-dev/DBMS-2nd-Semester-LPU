@@ -75,7 +75,7 @@ END;
 
  ----------------------------------------------
 
---Program to find whether the given input is a Digit or an Alphabet
+--Program to find whether the given input is a Digit or an Alphabet or a Special Charecter
 DECLARE
     INP CHAR(1) := :INP;
 BEGIN
