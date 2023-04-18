@@ -17,10 +17,10 @@ end;
 
 -----------------------------
 
-create table emp1
-(empno number,
-name varchar(50),
-hierdate date,
-sall number)
-
+CREATE TABLE EMP1 (
+    EMPNO NUMBER,
+    NAME VARCHAR(50),
+    HIERDATE DATE,
+    SALL NUMBER
+)
 -----------------------------
