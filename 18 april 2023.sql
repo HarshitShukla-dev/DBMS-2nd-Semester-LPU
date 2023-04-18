@@ -49,3 +49,12 @@ FROM
 
 -----------------------------
 
+DECLARE
+    MY_NAME VARCHAR(50) := 'Sahil';
+BEGIN
+    DELETE FROM EMP1
+    WHERE
+        NAME = MY_NAME;
+END;
+
+-----------------------------
