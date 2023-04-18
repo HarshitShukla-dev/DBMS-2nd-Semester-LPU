@@ -27,3 +27,24 @@ CREATE TABLE EMP1 (
 
 -----------------------------
 
+DECLARE
+    MY_SALL     NUMBER := 20000;
+    MY_NAME     VARCHAR(25) := 'Sahil';
+    MY_HIERDATE DATE := '08-09-2023';
+BEGIN
+    INSERT INTO EMP1 VALUES(
+        1,
+        MY_NAME,
+        MY_HIERDATE,
+        MY_SALL
+    );
+END;
+
+-----------------------------
+
+SELECT
+    *
+FROM
+    EMP1
+
+-----------------------------
