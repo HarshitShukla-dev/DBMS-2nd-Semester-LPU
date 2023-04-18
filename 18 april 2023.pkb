@@ -16,4 +16,3 @@ dbms_output.put_line('num2 is greater than num1');
 end;
 
 ----------------------------------------------
-
