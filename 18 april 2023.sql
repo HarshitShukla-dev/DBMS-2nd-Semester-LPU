@@ -24,4 +24,6 @@ CREATE TABLE EMP1 (
     HIERDATE DATE,
     SALL NUMBER
 )
+
 -----------------------------
+
