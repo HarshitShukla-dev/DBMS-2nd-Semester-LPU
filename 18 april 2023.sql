@@ -24,6 +24,3 @@ hierdate date,
 sall number)
 
 -----------------------------
-
-
-
