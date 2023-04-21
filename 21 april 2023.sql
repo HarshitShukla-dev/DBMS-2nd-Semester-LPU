@@ -1,17 +1,18 @@
 DECLARE
-    A NUMBERMBERMBER;
-    B NUMBERMBERMBER;
-D   PROCEDURE SQURNUMR
-U       X MRNUMBER
-    
-    BEGIN   X M(NUMBER
-        X  XX
-    END         X  X)XS
-BEGINND         X:=X*X;
-    AEGIENTERNUM
-    B   AAGIENTERNUM
-    SQURNUM AA=:ENTER_NUM;
-    DBMSSOUTPUT=PUTLINEBA
-END END END;
+    A NUMBER;
+    B NUMBER;
+    PROCEDURE SQURNUM(
+        X IN OUT NUMBER
+    )IS
+    BEGIN
+        X:=X*X;
+    END;
 
------------------------------------------
+BEGIN
+    A:=:ENTER_NUM;
+    B := A;
+    SQURNUM(A);
+    DBMS_OUTPUT.PUT_LINE('square of ('||B||'): '|| A);
+END;
+
+----------------------
