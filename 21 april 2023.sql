@@ -16,3 +16,16 @@ BEGIN
 END;
 
 ----------------------
+
+CREATE OR REPLACE FUNCTION(X IN NUMBER, Y IN NUMBER) RETURN NUMBER IS
+    X NUMBER;
+BEGIN
+    IF X>Y THEN
+        Z:=X;
+    ELSE
+        Z:=Y;
+    END IF;
+    RETURN Z;
+END;
+
+------------------------
