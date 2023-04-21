@@ -1,14 +1,17 @@
-declare
-a number;
-b number;
-procedure squrnum(x IN OUT number)IS
-begin
-x:=x*x;
-end;
+DECLARE
+    A NUMBERMBERMBER;
+    B NUMBERMBERMBER;
+D   PROCEDURE SQURNUMR
+U       X MRNUMBER
+    
+    BEGIN   X M(NUMBER
+        X  XX
+    END         X  X)XS
+BEGINND         X:=X*X;
+    AEGIENTERNUM
+    B   AAGIENTERNUM
+    SQURNUM AA=:ENTER_NUM;
+    DBMSSOUTPUT=PUTLINEBA
+END END END;
 
-begin
-a:=:enter_num;
-b := a;
-squrnum(a);
-dbms_output.put_line('square of ('||b||'): '|| a);
-end;
+-----------------------------------------
